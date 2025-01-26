@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>
+            Animal Adopton Form
+        </title>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+        <div class="form-container">
+        <h1>
+            Animal Adoption Form
+        </h1>
+        <form action="#" method="post">
+
+            <label for="name">Full Name<span class="required">*</span></label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email Address<span class="required">*</span></label>
+            <input form="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number <span class="required">*</span></label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="Address">Address <span class="required">*</span></label>
+            <textarea id="address" name="addres" rows="4" placeholder="Enter your addres" required></textarea>
+
+            <label for="Animal-type">Type of Animal <span class="required">*</span></label>
+            <select id="animal-type" name="animal-type" required>
+                <option value="" disabled selected>--select an animal --</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="bird">Bird</option>
+                <option value="rabbit">Rabbit</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="experience">Have you owned pets before? <span class="required">*</span></label>
+            <select id="experience" name="experience" required>
+                <option value="" disbled selected>-- select an option --</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <label for="reason">Why do you want to adopt an animal?</label>
+            <textarea id="reason" name="reason" rows="5" placeholder="share your reasons"></textarea>
+
+            <button type="submit">Submit Application</button>
+
+            <footer>
+                <span>
+                    Powered by Hillary Ogbonna, student of Genesys Tech Hub, 2025.
+                </span>
+            </footer>
+        </form>
+        </div>
+    </body>
+</html>
